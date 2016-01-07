@@ -1,0 +1,179 @@
+#!/bin/sh
+
+lock_file=/tmp/arescam_ctl.lock
+daemon_log_file=/tmp/run/arescam.log
+daemon_pid_file=/tmp/run/arescam.pid
+daemon_auth_url=https://watch-tv.zet/ca/
+
+###########################################################################
+
+plugin_install_dir=`dirname "$0"`/../
+plugin_install_dir=`cd "$plugin_install_dir"; pwd`
+. "$plugin_install_dir/bin/plugin_env.sh"
+
+###########################################################################
+
+ObtainLock()
+{
+    while ! (set -C; echo $$ >"$lock_file") 2>/dev/null; do
+        echo "waiting for lock..."
+        sleep 1
+    done
+    trap "rm -f '$lock_file'" EXIT
+}
+
+WaitForNetworkAndTimeZone()
+{
+    echo "waiting for IP address and time zone information..."
+
+    # /etc/TZ file is created by /firmware/scripts/init_timezone.sh script,
+    # which is called when the box is assigned an IP address (either via DHCP,
+    # or statically configured).
+    n=0
+    while [ ! -f /etc/TZ ]; do
+        n=`expr $n + 1`
+        if [ "$n" = 60 ]; then
+            echo "failed to wait for /etc/TZ, continuing without it..."
+            return
+        fi
+        sleep 1
+    done
+
+    echo "/etc/TZ exists, using it..."
+    TZ=`cat /etc/TZ`; export TZ
+}
+
+UnloadModule()
+{
+	echo "unloading ares kernel module..."
+	rmmod arescrypt
+}
+
+LoadModule()
+{
+	mod_exists=`lsmod | grep arescrypt`
+	if [ "x$mod_exists" != "x" ]; then
+		UnloadModule
+	fi
+
+	kernel_release=`uname -r`
+	smp_family=`zcat /proc/config.gz | grep CONFIG_TANGO3_86.*=y | sed 's/CONFIG_TANGO3_//;s/=y//' | tr '[:upper:]' '[:lower:]'`
+	arescrypt_ko="$plugin_install_dir/modules/$kernel_release/$smp_family/arescrypt.ko"
+	if [ $smp_family = "867x" ]; then
+		kernel_chksum=`zcat /proc/config.gz | grep -v CONFIG_INITRAMFS_ROOT_UID | grep -v CONFIG_INITRAMFS_ROOT_GID | tail -n +5 | cksum | cut -d" " -f2`
+		if [ $kernel_chksum -ge 38900 ]; then
+			sdk_version="sdk20120713"
+			arescrypt_ko="$plugin_install_dir/modules/$kernel_release/$smp_family/$sdk_version/arescrypt.ko"
+		fi
+	fi
+
+	echo "loading ares kernel module $arescrypt_ko..."
+	insmod $arescrypt_ko
+}
+
+LoginTerminal()
+{
+	echo "logging in..."
+	$plugin_install_dir/bin/arescam -a $daemon_auth_url -f $daemon_log_file -l $args
+	rc=$?; if [[ $rc != 0 ]]; then exit $rc; fi
+	echo "sucessfully logged in"
+}
+
+RegisterTerminal()
+{
+	echo "registering terminal..."
+	$plugin_install_dir/bin/arescam -a $daemon_auth_url -f $daemon_log_file -r $args
+	rc=$?; if [[ $rc != 0 ]]; then exit $rc; fi
+	echo "terminal registered"
+}
+
+DeregisterTerminal()
+{
+	echo "deregistering terminal..."
+	$plugin_install_dir/bin/arescam -a $daemon_auth_url -f $daemon_log_file -U $args
+	rc=$?; if [[ $rc != 0 ]]; then exit $rc; fi
+	echo "terminal unregistered"
+}
+
+StartDaemon()
+{
+    echo "starting arescam..."
+    if [ -f "$daemon_pid_file" ]; then
+        pid=`cat "$daemon_pid_file"`
+        echo "arescam is already running with pid $pid"
+    else
+		WaitForNetworkAndTimeZone
+		LoadModule
+		$plugin_install_dir/bin/arescam -a $daemon_auth_url -f $daemon_log_file -I $daemon_pid_file -k -d $args
+		rc=$?; if [[ $rc != 0 ]]; then exit $rc; fi
+        echo "arescam started"
+    fi
+}
+
+StopDaemon()
+{
+    echo "stopping arescam..."
+    if [ -f "$daemon_pid_file" ]; then
+        pid=`cat "$daemon_pid_file"`
+        kill "$pid"
+        rm -f "$daemon_pid_file"
+		UnloadModule
+        echo "arescam process $pid stopped"
+    else
+        echo "arescam is not running"
+    fi
+}
+
+CheckDaemonStatus()
+{
+    echo "getting arescam status..."
+    if [ -f "$daemon_pid_file" ]; then
+        pid=`cat "$daemon_pid_file"`
+        echo "arescam is running with pid $pid"
+    else
+        echo "arescam is not running"
+    fi
+}
+
+###########################################################################
+
+if [ "$#" -lt 1 ]; then
+    echo "usage: $0 (start|stop|restart|status|login|register|deregister) <args>"
+    exit 1
+fi
+
+op=$1
+shift
+args=$*
+
+# Prevent two instances of this script to run concurrently.
+ObtainLock
+
+case "$op" in
+    start)
+        StartDaemon
+        ;;
+    stop)
+        StopDaemon
+        ;;
+    restart)
+        StopDaemon
+        StartDaemon
+        ;;
+    status)
+        CheckDaemonStatus
+        ;;
+	login)
+		LoginTerminal
+		;;
+	register)
+		RegisterTerminal
+		;;
+	deregister)
+		DeregisterTerminal
+		;;
+    *)
+        echo "unknown command '$1'"
+        exit 1
+        ;;
+esac

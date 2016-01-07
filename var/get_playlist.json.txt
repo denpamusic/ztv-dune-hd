@@ -1,0 +1,1286 @@
+{
+	"jsonrpc": "2.0",
+	"id": 4,
+	"result": {
+		"playlists": [{
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-air.png",
+			"items": [1, 168, 2, 169, 3, 4, 5, 7, 8, 9, 12, 13, 15, 16, 1013, 18, 19, 130, 91010, 1010],
+			"id": 11,
+			"name": "Эфирные"
+		}, {
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-news.png",
+			"items": [50, 49, 42, 51, 53, 55, 1406],
+			"id": 12,
+			"name": "Новости"
+		}, {
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-childrens.png",
+			"items": [96, 99, 77, 58, 59, 93, 62, 64, 65, 1001, 1002, 1003, 1005, 1006, 1007, 1415, 163],
+			"id": 13,
+			"name": "Детские"
+		}, {
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-discovery.png",
+			"items": [999056, 29, 120, 31, 32, 33, 35, 74, 37, 43, 44, 83, 85, 88, 91406, 5972, 1405, 1004],
+			"id": 14,
+			"name": "Познавательные"
+		}, {
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-movie.png",
+			"items": [1108, 66, 67, 28, 69, 70, 71, 73, 38, 39, 40, 1106, 46, 174, 166, 41, 999126, 999127, 1105, 1102, 89, 1101, 1114, 9166, 152, 160],
+			"id": 15,
+			"name": "Кино"
+		}, {
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-sports.png",
+			"items": [6, 4494, 607, 52, 26, 61, 281, 999128, 999129, 999131, 606, 145, 1012, 151, 167, 170],
+			"id": 16,
+			"name": "Спорт"
+		}, {
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-music.png",
+			"items": [10, 11, 111, 104, 124, 110, 112, 86, 999114, 123, 109, 1011, 121, 153, 173],
+			"id": 17,
+			"name": "Музыка"
+		}, {
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-entertainment.png",
+			"items": [8, 10, 11, 13, 17, 45, 1113, 125, 1104],
+			"id": 18,
+			"name": "Развлекательные"
+		}, {
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-international.png",
+			"items": [1416, 1420, 1421, 48, 1422, 1423, 1424, 1425, 1426, 1427, 1412, 1413, 1414, 1417],
+			"id": 19,
+			"name": "Интернациональные"
+		}, {
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-hd.png",
+			"items": [174, 166, 1110, 605, 1411, 1111, 1112, 122, 1409, 116, 115, 1418, 601, 608, 1410, 1419, 165, 159, 2431, 161, 162, 156, 164, 2046, 150, 157, 158],
+			"id": 20,
+			"name": "HD каналы"
+		}, {
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-3d.png",
+			"items": [],
+			"id": 23,
+			"name": "3D каналы"
+		}, {
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-hobby.png",
+			"items": [23, 128, 129, 1407],
+			"id": 24,
+			"name": "Увлечения"
+		}, {
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-other.png",
+			"items": [126, 127],
+			"id": 25,
+			"name": "Разное"
+		}, {
+			"logo": "http://watch-tv.zet/resources/portal/images/icon245x140/tv-adult.png",
+			"items": [144, 90, 91, 97, 155, 2047, 143],
+			"id": 30,
+			"name": "Эротика"
+		}],
+		"medialist": [{
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "Первый канал",
+			"mrl": "udp://@235.10.10.1:1234",
+			"channel_id": 4710,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/4710.png",
+			"id": 1
+		}, {
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "Первый канал HD",
+			"mrl": "udp://@235.10.10.210:1234",
+			"channel_id": 4705,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/4705.png",
+			"id": 168
+		}, {
+			"epg_stop": "2015-01-19 05:10:00+0300",
+			"name": "Россия 1",
+			"mrl": "udp://@235.10.10.14:1234",
+			"channel_id": 5150,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5150.png",
+			"id": 2
+		}, {
+			"epg_stop": "2015-01-19 04:15:00+0300",
+			"name": "Россия HD",
+			"mrl": "udp://@235.10.10.117:1234",
+			"channel_id": 5145,
+			"epg_start": "2015-01-12 05:10:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5145.png",
+			"id": 169
+		}, {
+			"epg_stop": "2015-01-19 05:40:00+0300",
+			"name": "ТВ Центр",
+			"mrl": "udp://@235.10.10.18:1234",
+			"channel_id": 5950,
+			"epg_start": "2015-01-12 05:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5950.png",
+			"id": 3
+		}, {
+			"epg_stop": "2015-01-19 05:10:00+0300",
+			"name": "НТВ",
+			"mrl": "udp://@235.10.10.11:1234",
+			"channel_id": 4250,
+			"epg_start": "2015-01-12 05:10:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/4250.png",
+			"id": 4
+		}, {
+			"epg_stop": "2015-01-19 05:10:00+0300",
+			"name": "Disney Channel",
+			"mrl": "udp://@235.10.10.4:1234",
+			"channel_id": 11330,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/11330.png",
+			"id": 96
+		}, {
+			"epg_stop": "2015-01-19 03:00:00+0300",
+			"name": "Россия К",
+			"mrl": "udp://@235.10.10.9:1234",
+			"channel_id": 5210,
+			"epg_start": "2015-01-12 07:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5210.png",
+			"id": 5
+		}, {
+			"epg_stop": "2015-01-19 05:15:00+0300",
+			"name": "Россия 2",
+			"mrl": "udp://@235.10.10.15:1234",
+			"channel_id": 5170,
+			"epg_start": "2015-01-12 07:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5170.png",
+			"id": 6
+		}, {
+			"epg_stop": "2015-01-19 05:15:00+0300",
+			"name": "Домашний",
+			"mrl": "udp://@235.10.10.6:1234",
+			"channel_id": 1920,
+			"epg_start": "2015-01-12 05:25:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/1920.png",
+			"id": 7
+		}, {
+			"epg_stop": "2015-01-19 05:45:00+0300",
+			"name": "СТС",
+			"mrl": "udp://@235.10.10.16:1234",
+			"channel_id": 5710,
+			"epg_start": "2015-01-12 05:25:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5710.png",
+			"id": 8
+		}, {
+			"epg_stop": "2015-01-19 05:00:00+0300",
+			"name": "РЕН ТВ",
+			"mrl": "udp://@235.10.10.158:1234",
+			"channel_id": 5090,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5090.png",
+			"id": 9
+		}, {
+			"epg_stop": null,
+			"name": "Пятница!",
+			"mrl": "udp://@235.10.10.5:1234",
+			"channel_id": 15050,
+			"epg_start": null,
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/15050.png",
+			"id": 10
+		}, {
+			"epg_stop": "2015-01-19 02:30:00+0300",
+			"name": "Ю",
+			"mrl": "udp://@235.10.10.10:1234",
+			"channel_id": 3770,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/3770.png",
+			"id": 11
+		}, {
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "ТВ3",
+			"mrl": "udp://@235.10.10.156:1234",
+			"channel_id": 5830,
+			"epg_start": "2015-01-12 06:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5830.png",
+			"id": 12
+		}, {
+			"epg_stop": "2015-01-19 05:05:00+0300",
+			"name": "ТНТ",
+			"mrl": "udp://@235.10.10.19:1234",
+			"channel_id": 6130,
+			"epg_start": "2015-01-12 05:35:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/6130.png",
+			"id": 13
+		}, {
+			"epg_stop": "2015-01-19 02:30:00+0300",
+			"name": "Перец",
+			"mrl": "udp://@235.10.10.7:1234",
+			"channel_id": 1980,
+			"epg_start": "2015-01-12 06:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/1980.png",
+			"id": 15
+		}, {
+			"epg_stop": "2015-01-19 06:00:00+0300",
+			"name": "Пятый канал",
+			"mrl": "udp://@235.10.10.12:1234",
+			"channel_id": 4970,
+			"epg_start": "2015-01-12 05:20:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/4970.png",
+			"id": 16
+		}, {
+			"epg_stop": "2015-01-19 05:20:00+0300",
+			"name": "2x2",
+			"mrl": "udp://@235.10.10.20:1234",
+			"channel_id": 280,
+			"epg_start": "2015-01-12 06:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/280.png",
+			"id": 17
+		}, {
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "Санкт-Петербург",
+			"mrl": "udp://@235.10.10.17:1234",
+			"channel_id": 5405,
+			"epg_start": "2015-01-12 06:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5405.png",
+			"id": 1013
+		}, {
+			"epg_stop": "2015-01-19 05:15:00+0300",
+			"name": "Россия 24",
+			"mrl": "udp://@235.10.10.8:1234",
+			"channel_id": 5190,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5190.png",
+			"id": 18
+		}, {
+			"epg_stop": "2015-01-19 03:30:00+0300",
+			"name": "100ТВ",
+			"mrl": "udp://@235.10.10.179:1234",
+			"channel_id": 110,
+			"epg_start": "2015-01-12 07:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/110.png",
+			"id": 19
+		}, {
+			"epg_stop": "2015-01-19 06:00:00+0300",
+			"name": "Мульт",
+			"mrl": "udp://@235.10.10.3:1234",
+			"channel_id": 3735,
+			"epg_start": "2015-01-12 05:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/3735.png",
+			"id": 99
+		}, {
+			"epg_stop": null,
+			"name": "Кино ТВ",
+			"mrl": "udp://@235.10.10.21:1234",
+			"channel_id": 17310,
+			"epg_start": null,
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17310.png",
+			"id": 1106
+		}, {
+			"epg_stop": "2015-01-19 03:00:00+0300",
+			"name": "ТНВ",
+			"mrl": "udp://@235.10.10.213:1234",
+			"channel_id": 6110,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/6110.png",
+			"id": 1416
+		}, {
+			"epg_stop": "2015-01-19 00:00:00+0300",
+			"name": "Life News",
+			"mrl": "udp://@235.10.10.186:1234",
+			"channel_id": 1860,
+			"epg_start": "2015-01-12 06:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/1860.png",
+			"id": 50
+		}, {
+			"epg_stop": "2015-01-19 05:10:00+0300",
+			"name": "Ностальгия",
+			"mrl": "udp://@235.10.10.195:1234",
+			"channel_id": 6160,
+			"epg_start": "2015-01-12 06:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/6160.png",
+			"id": 130
+		}, {
+			"epg_stop": "2015-01-19 00:45:00+0300",
+			"name": "Еврокино HD",
+			"mrl": "udp://@235.10.10.148:1234",
+			"channel_id": 2050,
+			"epg_start": "2015-01-12 05:45:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/2050.png",
+			"id": 1108
+		}, {
+			"epg_stop": "2015-01-18 23:20:00+0300",
+			"name": "Русский Иллюзион HD",
+			"mrl": "udp://@235.10.10.153:1234",
+			"channel_id": 5330,
+			"epg_start": "2015-01-12 05:15:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5330.png",
+			"id": 66
+		}, {
+			"epg_stop": "2015-01-19 03:50:00+0300",
+			"name": "MGM HD",
+			"mrl": "udp://@235.10.10.67:1234",
+			"channel_id": 14930,
+			"epg_start": "2015-01-12 05:45:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/14930.png",
+			"id": 67
+		}, {
+			"epg_stop": "2015-01-19 05:40:00+0300",
+			"name": "Комедия ТВ",
+			"mrl": "udp://@235.10.10.68:1234",
+			"channel_id": 3070,
+			"epg_start": "2015-01-12 05:40:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/3070.png",
+			"id": 28
+		}, {
+			"epg_stop": "2015-01-19 05:15:00+0300",
+			"name": "Sony Sci-Fi",
+			"mrl": "udp://@235.10.10.69:1234",
+			"channel_id": 10150,
+			"epg_start": "2015-01-12 05:15:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/10150.png",
+			"id": 69
+		}, {
+			"epg_stop": "2015-01-18 23:05:00+0300",
+			"name": "Иллюзион+ HD",
+			"mrl": "udp://@235.10.10.152:1234",
+			"channel_id": 2630,
+			"epg_start": "2015-01-12 05:40:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/2630.png",
+			"id": 70
+		}, {
+			"epg_stop": "2015-01-19 06:35:00+0300",
+			"name": "CBS Drama",
+			"mrl": "udp://@235.10.10.71:1234",
+			"channel_id": 19690,
+			"epg_start": "2015-01-12 06:35:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/19690.png",
+			"id": 71
+		}, {
+			"epg_stop": "2015-01-19 04:30:00+0300",
+			"name": "Дом кино",
+			"mrl": "udp://@235.10.10.74:1234",
+			"channel_id": 1940,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/1940.png",
+			"id": 73
+		}, {
+			"epg_stop": "2015-01-19 05:01:00+0300",
+			"name": "Cartoon Network",
+			"mrl": "udp://@235.10.10.77:1234",
+			"channel_id": 10830,
+			"epg_start": "2015-01-12 05:01:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/10830.png",
+			"id": 77
+		}, {
+			"epg_stop": "2015-01-19 05:20:00+0300",
+			"name": "TV1000 Русское кино",
+			"mrl": "udp://@235.10.10.111:1234",
+			"channel_id": 17810,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17810.png",
+			"id": 38
+		}, {
+			"epg_stop": "2015-01-19 04:00:00+0300",
+			"name": "TV1000 Action",
+			"mrl": "udp://@235.10.10.112:1234",
+			"channel_id": 17790,
+			"epg_start": "2015-01-12 05:30:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17790.png",
+			"id": 39
+		}, {
+			"epg_stop": "2015-01-19 05:15:00+0300",
+			"name": "TV1000",
+			"mrl": "udp://@235.10.10.113:1234",
+			"channel_id": 17770,
+			"epg_start": "2015-01-12 06:30:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17770.png",
+			"id": 40
+		}, {
+			"epg_stop": "2015-01-19 00:29:00+0300",
+			"name": "RT HD",
+			"mrl": "udp://@235.10.10.49:1234",
+			"channel_id": 16910,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/16910.png",
+			"id": 49
+		}, {
+			"epg_stop": "2015-01-19 05:07:00+0300",
+			"name": "РБК",
+			"mrl": "udp://@235.10.10.50:1234",
+			"channel_id": 5070,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5070.png",
+			"id": 42
+		}, {
+			"epg_stop": "2015-01-19 00:30:00+0300",
+			"name": "BBC World News",
+			"mrl": "udp://@235.10.10.51:1234",
+			"channel_id": 10430,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/10430.png",
+			"id": 51
+		}, {
+			"epg_stop": "2015-01-19 05:35:00+0300",
+			"name": "Universal Channel",
+			"mrl": "udp://@235.10.10.54:1234",
+			"channel_id": 18030,
+			"epg_start": "2015-01-12 05:20:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/18030.png",
+			"id": 46
+		}, {
+			"epg_stop": "2015-01-19 02:57:00+0300",
+			"name": "France 24",
+			"mrl": "udp://@235.10.10.53:1234",
+			"channel_id": 12110,
+			"epg_start": "2015-01-12 06:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/12110.png",
+			"id": 53
+		}, {
+			"epg_stop": "2015-01-19 05:40:00+0300",
+			"name": "ОТР",
+			"mrl": "udp://@235.10.10.47:1234",
+			"channel_id": 4500,
+			"epg_start": "2015-01-12 05:10:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/4500.png",
+			"id": 91010
+		}, {
+			"epg_stop": "2015-01-19 05:15:00+0300",
+			"name": "Авто Плюс",
+			"mrl": "udp://@235.10.10.23:1234",
+			"channel_id": 1030,
+			"epg_start": "2015-01-12 05:40:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/1030.png",
+			"id": 23
+		}, {
+			"epg_stop": "2015-01-19 02:30:00+0300",
+			"name": "Eurosport HD",
+			"mrl": "udp://@235.10.10.141:1234",
+			"channel_id": 11750,
+			"epg_start": "2015-01-12 10:30:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/11750.png",
+			"id": 607
+		}, {
+			"epg_stop": "2015-01-19 01:45:00+0300",
+			"name": "Eurosport 2 HD",
+			"mrl": "udp://@235.10.10.142:1234",
+			"channel_id": 11770,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/11770.png",
+			"id": 52
+		}, {
+			"epg_stop": "2015-01-19 04:55:00+0300",
+			"name": "Боец",
+			"mrl": "udp://@235.10.10.27:1234",
+			"channel_id": 1310,
+			"epg_start": "2015-01-12 06:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/1310.png",
+			"id": 61
+		}, {
+			"epg_stop": "2015-01-19 05:05:00+0300",
+			"name": "TLC HD",
+			"mrl": "udp://@235.10.10.139:1234",
+			"channel_id": 17670,
+			"epg_start": "2015-01-12 05:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17670.png",
+			"id": 120
+		}, {
+			"epg_stop": "2015-01-19 05:10:00+0300",
+			"name": "Discovery World",
+			"mrl": "udp://@235.10.10.31:1234",
+			"channel_id": 11310,
+			"epg_start": "2015-01-12 05:10:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/11310.png",
+			"id": 31
+		}, {
+			"epg_stop": "2015-01-19 05:36:00+0300",
+			"name": "Science Channel",
+			"mrl": "udp://@235.10.10.140:1234",
+			"channel_id": 17210,
+			"epg_start": "2015-01-12 05:36:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17210.png",
+			"id": 32
+		}, {
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "Мир",
+			"mrl": "udp://@235.10.10.36:1234",
+			"channel_id": 3650,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/3650.png",
+			"id": 74
+		}, {
+			"epg_stop": "2015-01-19 00:45:00+0300",
+			"name": "Союз",
+			"mrl": "udp://@235.10.10.37:1234",
+			"channel_id": 5490,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5490.png",
+			"id": 37
+		}, {
+			"epg_stop": "2015-01-19 00:30:00+0300",
+			"name": "Живи HD",
+			"mrl": "udp://@235.10.10.159:1234",
+			"channel_id": 2250,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/2250.png",
+			"id": 128
+		}, {
+			"epg_stop": "2015-01-19 05:15:00+0300",
+			"name": "National Geographic Channel",
+			"mrl": "udp://@235.10.10.43:1234",
+			"channel_id": 15210,
+			"epg_start": "2015-01-12 05:15:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/15210.png",
+			"id": 43
+		}, {
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "Investigation Discovery",
+			"mrl": "udp://@235.10.10.44:1234",
+			"channel_id": 13650,
+			"epg_start": "2015-01-12 05:30:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/13650.png",
+			"id": 44
+		}, {
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "Fashion TV",
+			"mrl": "udp://@235.10.10.45:1234",
+			"channel_id": 12030,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/12030.png",
+			"id": 45
+		}, {
+			"epg_stop": "2015-01-19 06:00:00+0300",
+			"name": "MTV Rocks",
+			"mrl": "udp://@235.10.10.81:1234",
+			"channel_id": 15040,
+			"epg_start": "2015-01-12 06:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/15040.png",
+			"id": 111
+		}, {
+			"epg_stop": "2015-01-19 05:35:00+0300",
+			"name": "Наука 2.0",
+			"mrl": "udp://@235.10.10.174:1234",
+			"channel_id": 3850,
+			"epg_start": "2015-01-12 05:35:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/3850.png",
+			"id": 83
+		}, {
+			"epg_stop": "2015-01-17 06:30:00+0300",
+			"name": "Моя планета",
+			"mrl": "udp://@235.10.10.42:1234",
+			"channel_id": 3690,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/3690.png",
+			"id": 85
+		}, {
+			"epg_stop": "2015-01-19 05:10:00+0300",
+			"name": "Viasat History",
+			"mrl": "udp://@235.10.10.115:1234",
+			"channel_id": 18490,
+			"epg_start": "2015-01-12 05:25:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/18490.png",
+			"id": 88
+		}, {
+			"epg_stop": "2015-01-19 00:00:00+0300",
+			"name": "Da Vinci learning",
+			"mrl": "udp://@235.10.10.88:1234",
+			"channel_id": 11230,
+			"epg_start": "2015-01-12 05:20:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/11230.png",
+			"id": 91406
+		}, {
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "Мультимания",
+			"mrl": "udp://@235.10.10.146:1234",
+			"channel_id": 3730,
+			"epg_start": "2015-01-12 05:30:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/3730.png",
+			"id": 58
+		}, {
+			"epg_stop": "2015-01-18 21:50:00+0300",
+			"name": "Детский мир",
+			"mrl": "udp://@235.10.10.59:1234",
+			"channel_id": 1830,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/1830.png",
+			"id": 59
+		}, {
+			"epg_stop": "2015-01-19 00:35:00+0300",
+			"name": "Детский HD",
+			"mrl": "udp://@235.10.10.147:1234",
+			"channel_id": 1820,
+			"epg_start": "2015-01-12 05:10:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/1820.png",
+			"id": 93
+		}, {
+			"epg_stop": "2015-01-19 05:25:00+0300",
+			"name": "Nickelodeon",
+			"mrl": "udp://@235.10.10.62:1234",
+			"channel_id": 15330,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/15330.png",
+			"id": 62
+		}, {
+			"epg_stop": "2015-01-19 05:10:00+0300",
+			"name": "Е!",
+			"mrl": "udp://@235.10.10.63:1234",
+			"channel_id": 11330,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/11330.png",
+			"id": 1113
+		}, {
+			"epg_stop": "2015-01-19 04:50:00+0300",
+			"name": "Карусель",
+			"mrl": "udp://@235.10.10.64:1234",
+			"channel_id": 2830,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/2830.png",
+			"id": 64
+		}, {
+			"epg_stop": "2015-01-19 00:40:00+0300",
+			"name": "Teen TV",
+			"mrl": "udp://@235.10.10.65:1234",
+			"channel_id": 17630,
+			"epg_start": "2015-01-12 06:25:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17630.png",
+			"id": 65
+		}, {
+			"epg_stop": "2015-01-19 01:30:00+0300",
+			"name": "MCM Top",
+			"mrl": "udp://@235.10.10.78:1234",
+			"channel_id": 14870,
+			"epg_start": "2015-01-12 08:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/14870.png",
+			"id": 104
+		}, {
+			"epg_stop": "2015-01-19 04:00:00+0300",
+			"name": "STV",
+			"mrl": "udp://@235.10.10.82:1234",
+			"channel_id": 3750,
+			"epg_start": "2015-01-12 07:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/3750.png",
+			"id": 124
+		}, {
+			"epg_stop": "2015-01-19 00:05:00+0300",
+			"name": "RU.TV",
+			"mrl": "udp://@235.10.10.83:1234",
+			"channel_id": 17070,
+			"epg_start": "2015-01-12 07:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17070.png",
+			"id": 110
+		}, {
+			"epg_stop": "2015-01-19 01:00:00+0300",
+			"name": "A-ONE",
+			"mrl": "udp://@235.10.10.85:1234",
+			"channel_id": 10190,
+			"epg_start": "2015-01-12 06:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/10190.png",
+			"id": 112
+		}, {
+			"epg_stop": "2015-01-19 05:25:00+0300",
+			"name": "Шансон ТВ",
+			"mrl": "udp://@235.10.10.197:1234",
+			"channel_id": 6810,
+			"epg_start": "2015-01-12 06:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/6810.png",
+			"id": 999114
+		}, {
+			"epg_stop": "2015-01-19 06:00:00+0300",
+			"name": "MTV HD",
+			"mrl": "udp://@235.10.10.122:1234",
+			"channel_id": 15035,
+			"epg_start": "2015-01-12 06:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/15035.png",
+			"id": 123
+		}, {
+			"epg_stop": "2015-01-19 06:30:00+0300",
+			"name": "Amedia HD",
+			"mrl": "udp://@235.10.10.123:1234",
+			"channel_id": 10100,
+			"epg_start": "2015-01-12 05:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/10100.png",
+			"id": 174
+		}, {
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "Amedia Premium HD",
+			"mrl": "udp://@235.10.10.124:1234",
+			"channel_id": 10105,
+			"epg_start": "2015-01-12 05:25:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/10105.png",
+			"id": 166
+		}, {
+			"epg_stop": "2015-01-19 05:15:00+0300",
+			"name": "Amedia 2",
+			"mrl": "udp://@235.10.10.125:1234",
+			"channel_id": 10095,
+			"epg_start": "2015-01-12 05:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/10095.png",
+			"id": 41
+		}, {
+			"epg_stop": null,
+			"name": "ТНТ-Comedy",
+			"mrl": "udp://@235.10.10.13:1234",
+			"channel_id": null,
+			"epg_start": null,
+			"logo": null,
+			"id": 125
+		}, {
+			"epg_stop": "2015-01-19 00:00:00+0300",
+			"name": "Shopping Live",
+			"mrl": "udp://@235.10.10.200:1234",
+			"channel_id": 17245,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17245.png",
+			"id": 126
+		}, {
+			"epg_stop": "2015-01-19 06:00:00+0300",
+			"name": "Top Shop TV",
+			"mrl": "udp://@235.10.10.199:1234",
+			"channel_id": 17690,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17690.png",
+			"id": 127
+		}, {
+			"epg_stop": "2015-01-19 04:10:00+0300",
+			"name": "TV1000 Comedy HD",
+			"mrl": "udp://@235.10.10.132:1234",
+			"channel_id": 17795,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17795.png",
+			"id": 1110
+		}, {
+			"epg_stop": "2015-01-19 05:00:00+0300",
+			"name": "Viasat Golf HD",
+			"mrl": "udp://@235.10.10.133:1234",
+			"channel_id": 18495,
+			"epg_start": "2015-01-12 05:30:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/18495.png",
+			"id": 605
+		}, {
+			"epg_stop": "2015-01-19 05:05:00+0300",
+			"name": "Viasat History+Nature HD",
+			"mrl": "udp://@235.10.10.134:1234",
+			"channel_id": 18510,
+			"epg_start": "2015-01-12 05:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/18510.png",
+			"id": 1411
+		}, {
+			"epg_stop": "2015-01-19 02:50:00+0300",
+			"name": "TV1000 Megahit HD",
+			"mrl": "udp://@235.10.10.135:1234",
+			"channel_id": 17800,
+			"epg_start": "2015-01-12 06:10:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17800.png",
+			"id": 1111
+		}, {
+			"epg_stop": "2015-01-19 04:30:00+0300",
+			"name": "TV1000 Premium HD",
+			"mrl": "udp://@235.10.10.136:1234",
+			"channel_id": 17805,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17805.png",
+			"id": 1112
+		}, {
+			"epg_stop": "2015-01-19 00:30:00+0300",
+			"name": "Viasat Sport HD",
+			"mrl": "udp://@235.10.10.137:1234",
+			"channel_id": 18530,
+			"epg_start": "2015-01-12 06:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/18530.png",
+			"id": 606
+		}, {
+			"epg_stop": "2015-01-19 02:00:00+0300",
+			"name": "LUXE.TV HD",
+			"mrl": "udp://@235.10.10.144:1234",
+			"channel_id": 14450,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/14450.png",
+			"id": 122
+		}, {
+			"epg_stop": "2015-01-19 00:41:00+0300",
+			"name": "RT Doc HD",
+			"mrl": "udp://@235.10.10.145:1234",
+			"channel_id": 16915,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/16915.png",
+			"id": 1409
+		}, {
+			"epg_stop": null,
+			"name": "Trace Urban HD",
+			"mrl": "udp://@235.10.10.154:1234",
+			"channel_id": null,
+			"epg_start": null,
+			"logo": null,
+			"id": 116
+		}, {
+			"epg_stop": "2015-01-19 04:30:00+0300",
+			"name": "Русский роман",
+			"mrl": "udp://@235.10.10.60:1234",
+			"channel_id": 14810,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/14810.png",
+			"id": 1105
+		}, {
+			"epg_stop": "2015-01-19 05:00:00+0300",
+			"name": "iConcerts HD",
+			"mrl": "udp://@235.10.10.161:1234",
+			"channel_id": 16005,
+			"epg_start": "2015-01-12 06:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/16005.png",
+			"id": 115
+		}, {
+			"epg_stop": "2015-01-19 00:00:00+0300",
+			"name": "History HD",
+			"mrl": "udp://@235.10.10.164:1234",
+			"channel_id": 12857,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/12857.png",
+			"id": 1418
+		}, {
+			"epg_stop": null,
+			"name": "Туган тел HD",
+			"mrl": "udp://@235.10.10.165:1234",
+			"channel_id": 6190,
+			"epg_start": null,
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/6190.png",
+			"id": 1420
+		}, {
+			"epg_stop": null,
+			"name": "Baby TV",
+			"mrl": "udp://@235.10.10.166:1234",
+			"channel_id": 10410,
+			"epg_start": null,
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/10410.png",
+			"id": 1001
+		}, {
+			"epg_stop": "2015-01-19 05:20:00+0300",
+			"name": "Boomerang",
+			"mrl": "udp://@235.10.10.167:1234",
+			"channel_id": 10500,
+			"epg_start": "2015-01-12 05:20:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/10500.png",
+			"id": 1002
+		}, {
+			"epg_stop": "2015-01-19 05:05:00+0300",
+			"name": "Звезда",
+			"mrl": "udp://@235.10.10.178:1234",
+			"channel_id": 2450,
+			"epg_start": "2015-01-12 06:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/2450.png",
+			"id": 1102
+		}, {
+			"epg_stop": null,
+			"name": "VH1 European",
+			"mrl": "udp://@235.10.10.80:1234",
+			"channel_id": 18430,
+			"epg_start": null,
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/18430.png",
+			"id": 109
+		}, {
+			"epg_stop": "2015-01-19 05:10:00+0300",
+			"name": "Nick Jr",
+			"mrl": "udp://@235.10.10.180:1234",
+			"channel_id": 15340,
+			"epg_start": "2015-01-12 05:10:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/15340.png",
+			"id": 1003
+		}, {
+			"epg_stop": "2015-01-19 05:05:00+0300",
+			"name": "365 дней ТВ",
+			"mrl": "udp://@235.10.10.181:1234",
+			"channel_id": 310,
+			"epg_start": "2015-01-12 05:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/310.png",
+			"id": 1405
+		}, {
+			"epg_stop": "2015-01-19 05:05:00+0300",
+			"name": "Радость Моя",
+			"mrl": "udp://@235.10.10.184:1234",
+			"channel_id": 6310,
+			"epg_start": "2015-01-12 05:35:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/6310.png",
+			"id": 1004
+		}, {
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "8 канал",
+			"mrl": "udp://@235.10.10.194:1234",
+			"channel_id": 810,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/810.png",
+			"id": 1010
+		}, {
+			"epg_stop": "2015-01-19 06:15:00+0300",
+			"name": "Наш футбол HD",
+			"mrl": "udp://@235.10.10.96:1234",
+			"channel_id": 4010,
+			"epg_start": "2015-01-12 05:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/4010.png",
+			"id": 145
+		}, {
+			"epg_stop": "2015-01-19 06:00:00+0300",
+			"name": "Arirang TV",
+			"mrl": "udp://@235.10.10.202:1234",
+			"channel_id": 10125,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/10125.png",
+			"id": 1421
+		}, {
+			"epg_stop": "2015-01-19 03:30:00+0300",
+			"name": "DW",
+			"mrl": "udp://@235.10.10.203:1234",
+			"channel_id": 11250,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/11250.png",
+			"id": 48
+		}, {
+			"epg_stop": null,
+			"name": "Казах ТВ",
+			"mrl": "udp://@235.10.10.205:1234",
+			"channel_id": null,
+			"epg_start": null,
+			"logo": null,
+			"id": 1422
+		}, {
+			"epg_stop": "2015-01-18 23:54:00+0300",
+			"name": "NHK World",
+			"mrl": "udp://@235.10.10.206:1234",
+			"channel_id": 15320,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/15320.png",
+			"id": 1423
+		}, {
+			"epg_stop": "2015-01-19 04:55:00+0300",
+			"name": "Беларусь 24",
+			"mrl": "udp://@235.10.10.207:1234",
+			"channel_id": 1230,
+			"epg_start": "2015-01-12 05:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/1230.png",
+			"id": 1424
+		}, {
+			"epg_stop": null,
+			"name": "Грозный",
+			"mrl": "udp://@235.10.10.209:1234",
+			"channel_id": null,
+			"epg_start": null,
+			"logo": null,
+			"id": 1425
+		}, {
+			"epg_stop": "2015-01-19 05:20:00+0300",
+			"name": "Интер+",
+			"mrl": "udp://@235.10.10.211:1234",
+			"channel_id": 2690,
+			"epg_start": "2015-01-12 05:35:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/2690.png",
+			"id": 1426
+		}, {
+			"epg_stop": null,
+			"name": "Шант",
+			"mrl": "udp://@235.10.10.215:1234",
+			"channel_id": 6830,
+			"epg_start": null,
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/6830.png",
+			"id": 1427
+		}, {
+			"epg_stop": "2015-01-19 01:20:00+0300",
+			"name": "АВТО24 HD",
+			"mrl": "udp://@235.10.10.138:1234",
+			"channel_id": 1035,
+			"epg_start": "2015-01-12 05:15:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/1035.png",
+			"id": 601
+		}, {
+			"epg_stop": "2015-01-19 02:55:00+0300",
+			"name": "Outdoor channel HD",
+			"mrl": "udp://@235.10.10.163:1234",
+			"channel_id": 15665,
+			"epg_start": "2015-01-12 05:15:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/15665.png",
+			"id": 608
+		}, {
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "Кухня ТВ",
+			"mrl": "udp://@235.10.10.192:1234",
+			"channel_id": 3150,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/3150.png",
+			"id": 129
+		}, {
+			"epg_stop": "2015-01-19 05:55:00+0300",
+			"name": "Gulli",
+			"mrl": "udp://@235.10.10.171:1234",
+			"channel_id": 12450,
+			"epg_start": "2015-01-12 05:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/12450.png",
+			"id": 1005
+		}, {
+			"epg_stop": "2015-01-19 05:10:00+0300",
+			"name": "Jim Jam",
+			"mrl": "udp://@235.10.10.176:1234",
+			"channel_id": 13270,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/13270.png",
+			"id": 1006
+		}, {
+			"epg_stop": "2015-01-19 05:15:00+0300",
+			"name": "TiJi",
+			"mrl": "udp://@235.10.10.183:1234",
+			"channel_id": 17650,
+			"epg_start": "2015-01-12 05:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17650.png",
+			"id": 1007
+		}, {
+			"epg_stop": "2015-01-19 02:30:00+0300",
+			"name": "МУЗ ТВ",
+			"mrl": "udp://@235.10.10.22:1234",
+			"channel_id": 3770,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/3770.png",
+			"id": 1011
+		}, {
+			"epg_stop": "2015-01-19 05:55:00+0300",
+			"name": "НТВ+ Спорт+",
+			"mrl": "udp://@235.10.10.130:1234",
+			"channel_id": 5590,
+			"epg_start": "2015-01-12 05:25:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5590.png",
+			"id": 1012
+		}, {
+			"epg_stop": "2015-01-19 00:30:00+0300",
+			"name": "Zee TV (Индия)",
+			"mrl": "udp://@235.10.10.73:1234",
+			"channel_id": 19630,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/19630.png",
+			"id": 1101
+		}, {
+			"epg_stop": "2015-01-19 05:40:00+0300",
+			"name": "СТС Love",
+			"mrl": "udp://@235.10.10.2:1234",
+			"channel_id": 5715,
+			"epg_start": "2015-01-12 05:40:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5715.png",
+			"id": 1104
+		}, {
+			"epg_stop": null,
+			"name": "Много ТВ",
+			"mrl": "udp://@235.10.10.198:1234",
+			"channel_id": null,
+			"epg_start": null,
+			"logo": null,
+			"id": 1114
+		}, {
+			"epg_stop": "2015-01-19 00:45:00+0300",
+			"name": "World Fashion Channel",
+			"mrl": "udp://@235.10.10.98:1234",
+			"channel_id": 18830,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/18830.png",
+			"id": 121
+		}, {
+			"epg_stop": "2015-01-19 05:40:00+0300",
+			"name": "Успех",
+			"mrl": "udp://@235.10.10.48:1234",
+			"channel_id": 6320,
+			"epg_start": "2015-01-12 05:30:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/6320.png",
+			"id": 1406
+		}, {
+			"epg_stop": "2015-01-19 05:05:00+0300",
+			"name": "Загородная жизнь",
+			"mrl": "udp://@235.10.10.41:1234",
+			"channel_id": 2410,
+			"epg_start": "2015-01-12 05:05:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/2410.png",
+			"id": 1407
+		}, {
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "HD Life",
+			"mrl": "udp://@235.10.10.143:1234",
+			"channel_id": 12830,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/12830.png",
+			"id": 1410
+		}, {
+			"epg_stop": "2015-01-12 07:30:00+0300",
+			"name": "English Club",
+			"mrl": "udp://@235.10.10.204:1234",
+			"channel_id": 11610,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/11610.png",
+			"id": 1412
+		}, {
+			"epg_stop": "2015-01-19 00:30:00+0300",
+			"name": "Майдан",
+			"mrl": "udp://@235.10.10.212:1234",
+			"channel_id": 3435,
+			"epg_start": "2015-01-12 05:17:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/3435.png",
+			"id": 1413
+		}, {
+			"epg_stop": "2015-01-19 05:45:00+0300",
+			"name": "БСТ",
+			"mrl": "udp://@235.10.10.208:1234",
+			"channel_id": 1330,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/1330.png",
+			"id": 1414
+		}, {
+			"epg_stop": "2015-01-19 01:30:00+0300",
+			"name": "Мать и дитя",
+			"mrl": "udp://@235.10.10.190:1234",
+			"channel_id": 3460,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/3460.png",
+			"id": 1415
+		}, {
+			"epg_stop": "2015-01-19 04:10:00+0300",
+			"name": "ТНВ Планета",
+			"mrl": "udp://@235.10.10.214:1234",
+			"channel_id": 6115,
+			"epg_start": "2015-01-12 06:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/6115.png",
+			"id": 1417
+		}, {
+			"epg_stop": "2015-01-19 04:30:00+0300",
+			"name": "Travel HD",
+			"mrl": "udp://@235.10.10.201:1234",
+			"channel_id": 17712,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17712.png",
+			"id": 1419
+		}, {
+			"epg_stop": "2015-01-19 05:35:00+0300",
+			"name": "Спорт 1 HD",
+			"mrl": "udp://@235.10.10.172:1234",
+			"channel_id": 5530,
+			"epg_start": "2015-01-12 06:25:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/5530.png",
+			"id": 151
+		}, {
+			"epg_stop": "2015-01-19 05:05:00+0300",
+			"name": "КХЛ HD",
+			"mrl": "udp://@235.10.10.109:1234",
+			"channel_id": 3175,
+			"epg_start": "2015-01-12 05:20:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/3175.png",
+			"id": 167
+		}, {
+			"epg_stop": "2015-01-19 05:20:00+0300",
+			"name": "SONY HD",
+			"mrl": "udp://@235.10.10.108:1234",
+			"channel_id": 17230,
+			"epg_start": "2015-01-12 05:30:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17230.png",
+			"id": 9166
+		}, {
+			"epg_stop": "2015-01-19 05:36:00+0300",
+			"name": "Animal Planet HD",
+			"mrl": "udp://@235.10.10.107:1234",
+			"channel_id": 10115,
+			"epg_start": "2015-01-12 05:36:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/10115.png",
+			"id": 165
+		}, {
+			"epg_stop": "2015-01-19 00:00:00+0300",
+			"name": "Teletravel HD",
+			"mrl": "udp://@235.10.10.84:1234",
+			"channel_id": 6050,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/6050.png",
+			"id": 159
+		}, {
+			"epg_stop": "2015-01-19 06:00:00+0300",
+			"name": "Nat Geo Wild HD",
+			"mrl": "udp://@235.10.10.101:1234",
+			"channel_id": 15270,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/15270.png",
+			"id": 161
+		}, {
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "National Geographic Channel HD",
+			"mrl": "udp://@235.10.10.102:1234",
+			"channel_id": 15230,
+			"epg_start": "2015-01-12 05:30:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/15230.png",
+			"id": 162
+		}, {
+			"epg_stop": "2015-01-19 00:30:00+0300",
+			"name": "Еда HD",
+			"mrl": "udp://@235.10.10.168:1234",
+			"channel_id": 2060,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/2060.png",
+			"id": 156
+		}, {
+			"epg_stop": "2015-01-19 05:30:00+0300",
+			"name": "Fox HD",
+			"mrl": "udp://@235.10.10.103:1234",
+			"channel_id": 12070,
+			"epg_start": "2015-01-12 05:15:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/12070.png",
+			"id": 152
+		}, {
+			"epg_stop": "2015-01-19 05:20:00+0300",
+			"name": "Fox Life HD",
+			"mrl": "udp://@235.10.10.104:1234",
+			"channel_id": 12095,
+			"epg_start": "2015-01-12 05:15:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/12095.png",
+			"id": 160
+		}, {
+			"epg_stop": "2015-01-19 05:10:00+0300",
+			"name": "Nickelodeon HD",
+			"mrl": "udp://@235.10.10.105:1234",
+			"channel_id": 15335,
+			"epg_start": "2015-01-12 05:10:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/15335.png",
+			"id": 163
+		}, {
+			"epg_stop": "2015-01-19 05:15:00+0300",
+			"name": "Discovery Channel HD",
+			"mrl": "udp://@235.10.10.106:1234",
+			"channel_id": 11290,
+			"epg_start": "2015-01-12 05:15:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/11290.png",
+			"id": 164
+		}, {
+			"epg_stop": "2015-01-19 03:45:00+0300",
+			"name": "Fashion One HD",
+			"mrl": "udp://@235.10.10.149:1234",
+			"channel_id": 12010,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/12010.png",
+			"id": 150
+		}, {
+			"epg_stop": "2015-01-19 01:35:00+0300",
+			"name": "Mezzo Live HD",
+			"mrl": "udp://@235.10.10.170:1234",
+			"channel_id": 14910,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/14910.png",
+			"id": 153
+		}, {
+			"epg_stop": null,
+			"name": "Trace Sports HD",
+			"mrl": "udp://@235.10.10.110:1234",
+			"channel_id": 17700,
+			"epg_start": null,
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/17700.png",
+			"id": 170
+		}, {
+			"epg_stop": "2015-01-19 00:30:00+0300",
+			"name": "Охотник и рыболов HD",
+			"mrl": "udp://@235.10.10.119:1234",
+			"channel_id": 4550,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/4550.png",
+			"id": 157
+		}, {
+			"epg_stop": "2015-01-19 05:00:00+0300",
+			"name": "MyZen HD",
+			"mrl": "udp://@235.10.10.120:1234",
+			"channel_id": 15130,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/15130.png",
+			"id": 158
+		}, {
+			"epg_stop": "2015-01-19 06:00:00+0300",
+			"name": "MTV Live HD",
+			"mrl": "udp://@235.10.10.121:1234",
+			"channel_id": 14970,
+			"epg_start": "2015-01-12 05:00:00+0300",
+			"logo": "http://watch-tv.zet/resources/portal/images/logo245x140/14970.png",
+			"id": 173
+		}]
+	}
+}

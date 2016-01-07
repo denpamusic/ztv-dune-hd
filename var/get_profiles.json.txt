@@ -1,0 +1,17 @@
+{
+	"jsonrpc": "2.0",
+	"id": 2,
+	"result": [{
+		"require_password": null,
+		"age_limit": 0,
+		"id": 1,
+		"name": "0+",
+		"title": "0+"
+	}, {
+		"require_password": true,
+		"age_limit": 18,
+		"id": 2,
+		"name": "18+",
+		"title": "18+"
+	}]
+}

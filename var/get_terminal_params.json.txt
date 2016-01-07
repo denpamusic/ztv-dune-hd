@@ -1,0 +1,13 @@
+{
+	"jsonrpc": "2.0",
+	"id": 1,
+	"result": {
+		"profile_password": null,
+		"use_mcast_proxy": null,
+		"profile_require_password_period": null,
+		"mcast_proxy_url": null,
+		"profile_id": 1,
+		"language_id": 1,
+		"profile_require_password": null
+	}
+}
